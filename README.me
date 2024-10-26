@@ -1,0 +1,35 @@
+In-Memory University Database
+Project Overview
+
+This project is a simple in-memory database implemented in C++ using the Standard Library, including std::vector and std::map. The database is designed to manage university records, including students, classes, teachers, and courses. It provides users with the functionality to add, modify, view, search, and delete records directly in memory without saving data to files, which makes it fast and lightweight.
+Key Features
+
+    Add new records: Add students, teachers, courses, and class data.
+    View records: Retrieve information about students, teachers, courses, etc.
+    Modify records: Update details for existing entries.
+    Delete records: Remove entries from the database.
+    Search functionality: Search for students, teachers, or courses by various attributes like name, ID, or course title, making data retrieval quick and efficient.
+
+This project is ideal for handling and managing small, temporary datasets or as a prototype for larger, file-backed database applications.
+Technologies Used
+
+    C++ Standard Library: Primary libraries used include std::vector for lists and std::map for mapping unique identifiers to data entries.
+
+Project Structure
+
+    Student Module: Manages student information such as name, ID, enrolled courses, age and gander etc.
+    Teacher Module: Manages teacher details including courses taught.
+    Course Module: Stores course details, including the students enrolled and the teacher assigned.
+    Class Module: Organizes students into classes.
+
+Each module is stored in memory as a std::vector or std::map, depending on its structure and relationships.
+Example Usage
+
+    Adding a Student: The user can input a student's details (name, ID, classes enrolled) and add them to the database.
+    Viewing a Course: Retrieve a list of students and the assigned teacher for a particular course.
+    Modifying Records: Edit student or teacher information, such as course enrollments or personal details.
+    Deleting Entries: Remove students, teachers, or courses from the database.
+   Searching for a Student: Search by name or ID to quickly retrieve information about a specific student.
+
+
+This project is the final project for the Introduction to C++ course from MIT. All details are in the final project file MIT6_096IAP11_project.pdf
